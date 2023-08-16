@@ -1,0 +1,157 @@
+/*Logo div */
+.logo{
+    border:1px solid black;
+    display:flex;
+    height:70px;
+}
+/* logo img */
+.logo-img{
+    width:50px;
+    height:50px;
+    margin-left:15px; 
+    padding-top:10px;
+}
+/*logo name*/
+.logo-name{
+    width:30%;
+    padding:10px;
+    padding-left:20px !important;
+    overflow-x:hidden;
+}
+/* search box div */
+.search{
+    width:30%;
+}
+/* search box inside */
+.search-box{
+    width:80%;
+    margin-top:18px;
+    margin-left:20px;
+    background-color: rgba(20, 179, 20, 0.359);
+    border-radius:5px;
+}
+.search-box:hover{
+    height:30px;
+    width:85%;
+    background-color: aquamarine;
+}
+/* sign in div */
+.sign{
+    width:15%;
+}
+/* sign in box sizing */
+.sign-in{
+    width:80%;
+    margin-top:18px;
+    margin-left:20px;
+    background-color: rgb(255, 157, 0);
+    border:0px;
+    border-radius:5px;
+}
+.sign-in:hover{
+    width:85%;
+    height:30px;
+    background-color: yellowgreen;
+}
+/* profile logo */
+.profile{
+    float:right;
+    margin-left:15px;
+}
+/* profile img*/
+.profile-img{
+    width:40px;
+    height:50px;
+    margin-left:15px; 
+    margin-right:15px;
+    padding-top:10px;
+}
+.profile-img:hover{
+    width:45px;
+    height:55px;
+}
+/* card heading Now trending */
+.card11{
+    width:100%;
+    text-align:center;
+    padding-top:16px;
+    padding-bottom:16px;
+}
+.card-h{
+    width:320px;
+}
+.card-b{
+    margin-bottom:0px;
+}
+.card-b1{
+    margin-bottom:0px;
+}
+.card-b2{
+    margin-top:0px;
+}
+.card-hh{
+    width:220px;
+    height:410px;
+    background-color: white;
+    transition-property: background-color;
+}
+.card-hh:hover{
+    background-color: rgba(204, 197, 197, 0.878);
+    box-shadow: 10px 10px 5px lightblue;
+}
+.foot{
+    width:30%;
+}
+.mobile{
+    display:none;
+}
+.desktop{
+    display:auto;
+}
+.mobile1{
+    display:none;
+}
+.desktop1{
+    display:auto;
+    height:600px;
+}
+@media only screen and (max-width: 600px) {
+    .desktop{
+        display:none;
+    }
+    .desktop1{
+        display:none;
+    }
+    .mobile{
+        display:inline-block;
+    }
+    .mobile1{
+        display:auto;
+        height:300px;
+    }
+    /* for mobile header*/
+    .mob{
+        width:100%;
+        height:70px;
+        display:flex;
+    }
+    /* mobile logo */
+    .logom{
+        width:20%;
+    }
+    /* search box div for mobile */
+    .search{
+        width:40%;
+    }
+    .logo-namem{
+        width:65%;
+        padding:15px;
+        padding-left:25px !important;
+    }
+    .foot{
+        width: 100%;
+    }
+    .foot1{
+        display: none;
+    }
+  }
